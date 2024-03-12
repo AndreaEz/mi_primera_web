@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script src="https://kit.fontawesome.com/c9b87a4bee.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Zilla+Slab:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi primera web</title>
+    <script src="https://kit.fontawesome.com/9b56bc92de.js" crossorigin="anonymous">
+    </script>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+ </head>
+ <body>
+    <header id="encabezado">
+      <a href="index.html"><i class="fa-regular fa-heart"></i></a>
+      <label for="check" class="checkbtn">
+        <i class="fa-solid fa-bars"></i>
+      </label>
+      <nav class="navbar">
+        <ul class="menu">
+          <li><a class="navli" href="index.html">Inicio</a></li>
+          <li><a class="navli" href="#acerca">Acerca de mí</a></li>
+          <li><a class="navli" href="#trabajos">Trabajos</a></li>
+          <li><a class="navli" href="#trabajos">Servicios</a></li>
+          <li><a class="navli" href="#contacto">Contacto</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main id="seccion-principal">
+      <section class="seccion-1">
+        <div class="acerca-de">
+          <h2>Acerca de mi</h2>
+          <p><strong>Bienvenido a mi web</strong></p>
+          <p class="parrafo2">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorum adipisci numquam, debitis, possimus cumque dicta, nisi ducimus minus dignissimos tenetur natus ipsum alias quaerat in doloremque fuga neque facilis repudiandae.
+          </p>
+        </div>
+        <div class="acerca-imagen">
+          <img src="img/Perfil.jpg" alt="Imagen portada" />
+        </div>
+      </section>
+      <section class="seccion-2">
+        <img src="img/Foto1.jpeg" alt="">
+      </section>
+      
+      <section class="seccion-3">
+        <h2>Trabajos</h2>
+        <div class="Articulos">
+          <div class="Articulo-1">
+            <img src="img/Articulo1.jpeg" 
+            alt="">
+            <h2>Titulo 1</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta distinctio impedit corporis aut velit? At iste nihil ducimus suscipit? Doloribus temporibus, iste dolor exercitationem illum voluptates quaerat! Rem, veritatis at.</p>
+            <a href="#leermas">Leer más</a>
+          </div>
+          <div class="Articulo-2">
+            <img src="img/Articulo2.png" alt="">
+            <h2>Titulo 1</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta distinctio impedit corporis aut velit? At iste nihil ducimus suscipit? Doloribus temporibus, iste dolor exercitationem illum voluptates quaerat! Rem, veritatis at.</p>
+            <a href="#leermas">Leer más</a>
+          </div>
+          <div class="Articulo-3">
+            <img src="img/Articulo3.jpeg" 
+            alt="">
+            <h2>Titulo 1</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta distinctio impedit corporis aut velit? At iste nihil ducimus suscipit? Doloribus temporibus, iste dolor exercitationem illum voluptates quaerat! Rem, veritatis at.</p>
+            <a href="#leermas">Leer más</a>
+          </div>
+      </div>
+      </section>
+    </main>
+    <footer>
+      <div class="contactanos">
+      <h1>Contacto</h1>
+      <p><em>¡Esperamos tu consulta!</em></p>
+
+      <form action="" method="get" class="formulario" id="form">
+        <div class="form-row">
+            <label for="nombre">Nombre</label>
+            <input id="nombre" name="nombre" type="text" />
+        </div>
+        <div class="form-row">
+            <label for="email">Email</label>
+            <input
+              id="email"
+              name="email"
+              type="email"
+              placeholder="pepe@gmail.com"
+              required
+            />
+        </div>
+        <div class="form-row">
+            <label for="mensaje">Mensaje</label>
+            <textarea id="mensaje" name="mensaje"></textarea>
+        </div>
+        <div class="form-row">
+            <button>Enviar</button>
+        </div>
+        <p class="alertas" id="alertas"></p>
+      </form>
+      </div>
+      <div class="redes">
+      <ul>
+        <li><a href="index-personal.html#contact"><i class="fa-regular fa-address-book"></i></a></li>
+        <li><a href="https://www.instagram.com/andrea.ez72/"><i class="fa-brands fa-instagram"></i></a></li>
+        <li><a href="index-personal.html#TikTok"><i class="fa-brands fa-tiktok"></i></a></li>
+        <li><a href="index-personal.html#Whastapp"><i class="fa-brands fa-whatsapp"></i></a></li>
+      </ul>
+      <p>Mis redes &#127760;</p>
+      </div>
+    </footer>
+  <script src="formu.js"></script>
+ </body>
+</html>
