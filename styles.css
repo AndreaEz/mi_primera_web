@@ -60,6 +60,7 @@ header nav ul li a {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
+  flex-wrap: wrap;
 }
 h2{ font-size: 4em;}
 p{ font-size: 1.5em;}
@@ -283,6 +284,37 @@ footer {
             margin-left: 120px;}
           }
 @media (max-width:768px) {
+  .seccion-1{
+  background-color: rgb(245, 230, 216);
+  padding: 0.5em;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+#seccion-principal .acerca-imagen img{
+  width: 80%; height: auto;
+  padding-top: 1em;
+  padding-left: 2.5em;
+}
+.acerca-de{
+  font-family: "Zilla Slab", serif;
+  font-weight: 400;
+  font-style: normal;
+  width: auto;
+  padding: 1em 0em 0em 0.2em;
+  gap: 1.5em;
+  flex-wrap: wrap;
+}
+
+.acerca-de h2{
+  font-size: 3.5em;
+  font-family: "Permanent Marker", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
   .form-row button {
       font-size: 16px;
       font-weight: bold;
@@ -311,16 +343,7 @@ footer {
   }
   header {
       background-color: rgb(96, 124, 146);
-  }
-
-  .seccion-1 h2{font-size: 3.5em;}
-
-  #seccion-principal .acerca-imagen img{
-      width: 120%;
-      height: 120%;}
-
-  .seccion-1{padding: 0.5em; padding-bottom: 1em;}
-  
+  }  
   p{font-size: 21px;width: 100%;}
 
   .acerca-de h2{position: static;
@@ -376,8 +399,3 @@ footer {
       opacity: 1;
     }
   }
-@media (max-width:670px){
-.seccion-1 { display: flex;
-flex-direction: column-reverse;}
-}
-  
